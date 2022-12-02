@@ -1,0 +1,220 @@
+.container{
+	font-family: 'Open Sans', sans-serif;
+}
+.header_name i{
+	font-size:38px;
+	color:blue;
+	    line-height: 50px;
+}
+.header_name h1 a{
+	color:#525288;
+	
+	font-weight:600;
+}
+
+.banner_section{
+	background-image:url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+	
+}
+.banner_sub_left{
+	background-color:#f6f9ff;
+}
+.banner_sub_left h6{
+	font-size:15px;
+	color:#b0bdd8;
+}
+.banner_sub_left h3 {
+	font-size:30px;
+	color:#525288;
+}
+.banner_sub_left p{
+	font-size: 15px;
+    color: #444444db;
+}
+.section_title h6{
+	font-size:15px;
+	color:#b0bdd8;
+}
+.section_title p{
+	font-weight:700;
+	font-size:30px;
+	color:#525288;
+}
+.values_sub h3{
+	color:#525288;
+	font-weight:600;
+}
+.values_sub p{
+	font-size: 15px;
+    color: #444444db;
+}
+.clients_list{
+	    position: relative;
+    padding: 24px 0 24px 40px;
+    box-shadow: 4px -2px 10px #80808070;
+}
+.clients_list i{
+	position:absolute;
+	top:45%;
+	color:blue;
+	font-size:30px;
+	
+	}
+
+	.clients_list h4{
+	color:blue;
+	font-size:30px;
+}
+.clients_list h5{
+	color:#444444db;
+	font-size:15px;
+}
+.clients_list h4,
+.clients_list h5{
+	padding-left:40px;
+	
+}
+.feature_right_Sub{
+	padding: 24px 0 24px 40px;
+    box-shadow: 4px -2px 10px #80808070;
+}
+.feature_right_Sub i{
+	padding:2px;
+	background-color:#ecf3ff;
+	color:#0561a8;
+	margin-right:10px;
+}
+.volunters_left_header p{
+	    color: #0c2671;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 10px
+}
+.volunters_left_header span{
+	
+	color:#3b52f6;
+	padding-right:30px;
+	font-weight: 600;
+}
+
+.volunters_left_header .navigation{
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    margin-bottom: 13px;
+	
+} 
+.volunters_left_header .nav_hover{
+	border-bottom:5px solid #0c2671;
+	
+}
+.volunters_left .description .para{
+	color:#0c2671;
+	padding-bottom:12px;
+}
+.volunters_left .description p{
+	padding-bottom:15px;
+}
+.volunters_left .description h4{
+	
+	    color: #0c2671;
+    padding-bottom: 14px;
+    font-weight: 500;
+}
+ .volunters_left .description i{
+padding-right:8px; 
+}
+.announcement_list_sub{
+	position:relative;
+	
+}
+.announcement_list_sub i{
+	position: absolute;
+    top: 20px;
+    font-size: 30px;
+    color: blue;
+	}
+	
+.announcement_list_sub h4,
+.announcement_list_sub p{
+	margin-left:49px;
+}
+
+.announcement_list_sub h4{
+	font-size:20px;
+		color:#345591;
+}
+.announcement_list_sub p{
+	font-size:15px;
+	color:#cecfd0;
+}
+.services_list_items{
+	box-shadow: 4px -2px 10px #80808070;
+}
+.services_list_items h4{
+	font-weight:600;
+		
+}
+.services_list_items p{
+	color:#444;
+	font-size:16px;
+		
+}
+.services_list_items .list_1 i
+{
+	font-size: 20px;
+    background-color: #c2feff;
+    padding: 12px;
+}
+.service_list .list_1{
+	border-bottom:2px solid blue;
+}
+.service_list .list_2{
+	border-bottom:2px solid red;
+}
+.service_list .list_3{
+	border-bottom:2px solid green;
+}
+.service_list .list_4{
+	border-bottom:2px solid  #d63384;
+}
+.service_list .list_5{
+	border-bottom:2px solid #6f42c1;
+}
+.service_list .list_6{
+	border-bottom:2px solid  #20c997;
+}
+.pricing_list{
+	box-shadow: 4px -2px 10px #80808070;
+}
+
+.faq_questions p{
+	padding-bottom:8px;
+	    border-bottom: 1px dashed grey;
+}
+.team_list{
+	box-shadow: 2px 10px 10px rgba(0,0,0,15%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.outer{
+	text-align:center;
+	
+}
+.outer .dots{
+	width:10px;
+	height:10px;
+	background-color:#808080;
+	border-radius:50%;
+	display:inline-block;
+}
+.dotcolor{
+	width:10px;
+	height:10px;
+	background-color:#ffc451;
+	border-radius:50%;
+	display:inline-block;
+}	
