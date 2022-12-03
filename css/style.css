@@ -218,3 +218,19 @@ padding-right:8px;
 	border-radius:50%;
 	display:inline-block;
 }	
+.blog_list{
+box-shadow: 2px 10px 10px rgba(0,0,0,15%);
+	
+}
+.address_list, .contact_right, .newsletter_subscribe{
+	background-color:#fafbff;
+}
+.testinomial_list{
+	box-shadow: 2px 10px 10px rgba(0,0,0,15%);
+}
+.testinomial_list img{
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	border:2px solid grey;
+}
