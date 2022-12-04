@@ -1,5 +1,6 @@
-.container{
-	font-family: 'Open Sans', sans-serif;
+body{
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .header_name i{
 	font-size:38px;
@@ -11,6 +12,15 @@
 	
 	font-weight:600;
 }
+.nav-link{
+	color:#433e94;
+	font-weight:500;
+}
+
+ .active {
+	 color:blue;
+	 font-weight:900;
+ }
 
 .banner_section{
 	background-image:url(../assets/hero-bg.png);
@@ -20,8 +30,25 @@
     background-attachment: fixed;
 	
 }
+.btn .additional {
+	padding:20px 30px;
+}
+.get_started button{
+	padding:6px 40px;
+}
+.banner_left{
+	padding-right:40px;
+	    line-height: 30px;
+}
+.banner_left h3{
+	font-size:30px;
+	color:#012970;
+	font-weight:600;
+}
+
 .banner_sub_left{
 	background-color:#f6f9ff;
+	    line-height: 23px;
 }
 .banner_sub_left h6{
 	font-size:15px;
@@ -33,10 +60,10 @@
 }
 .banner_sub_left p{
 	font-size: 15px;
-    color: #444444db;
+    color: #525288;
 }
 .section_title h6{
-	font-size:15px;
+	font-size:18px;
 	color:#b0bdd8;
 }
 .section_title p{
@@ -59,8 +86,8 @@
 }
 .clients_list i{
 	position:absolute;
-	top:45%;
-	color:blue;
+	top:37%;
+	
 	font-size:30px;
 	
 	}
@@ -88,8 +115,9 @@
 	color:#0561a8;
 	margin-right:10px;
 }
+
 .volunters_left_header p{
-	    color: #0c2671;
+	    color: #a8a9b1;
     font-weight: 600;
     font-size: 22px;
     padding-bottom: 10px
@@ -98,12 +126,13 @@
 	
 	color:#3b52f6;
 	padding-right:30px;
+	padding-bottom:10px;
 	font-weight: 600;
 }
 
 .volunters_left_header .navigation{
 	border-bottom: 1px solid #ccc;
-    padding-bottom: 2px;
+    padding-bottom: 9px;
     margin-bottom: 13px;
 	
 } 
@@ -112,10 +141,11 @@
 	
 }
 .volunters_left .description .para{
-	color:#0c2671;
+	color:#a8a9b1;
 	padding-bottom:12px;
 }
 .volunters_left .description p{
+	color:#a8a9b1;
 	padding-bottom:15px;
 }
 .volunters_left .description h4{
@@ -126,6 +156,7 @@
 }
  .volunters_left .description i{
 padding-right:8px; 
+color:#a8a9b1;
 }
 .announcement_list_sub{
 	position:relative;
@@ -190,6 +221,9 @@ padding-right:8px;
 .pricing_list{
 	box-shadow: 4px -2px 10px #80808070;
 }
+.pricing_list h6{
+	font-size:28px;
+}
 
 .faq_questions p{
 	padding-bottom:8px;
@@ -225,6 +259,17 @@ box-shadow: 2px 10px 10px rgba(0,0,0,15%);
 .address_list, .contact_right, .newsletter_subscribe{
 	background-color:#fafbff;
 }
+.testinomail_rating i{
+	color:yellow;
+}
+.testinomial_list{
+	transition:all 0.3s ease;
+}
+.testinomial_list:hover{
+	transform:scale(1.2);
+	margin:30px;
+	
+}
 .testinomial_list{
 	box-shadow: 2px 10px 10px rgba(0,0,0,15%);
 }
@@ -233,4 +278,15 @@ box-shadow: 2px 10px 10px rgba(0,0,0,15%);
 	width:60px;
 	border-radius:50%;
 	border:2px solid grey;
+}
+.team_text{
+	line-height:20px;
+}
+.team_text p{
+	font-size:14px;
+	padding:0 10px;
+	color:#ccc;
+}
+.clients_images img{
+	opacity:0.6;
 }
