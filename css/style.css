@@ -1097,6 +1097,9 @@ body{
 .footer_company_icons i:hover{
 	color:#012970;
 }
+.news{
+	padding:0;
+}
 .useful_links h3{
 	color:#525288;
 	font-size:25px;
