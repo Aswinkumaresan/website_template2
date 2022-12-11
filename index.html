@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<title>Website Template_2</title>
 				<link rel="preconnect" href="https://fonts.googleapis.com">
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,25 +11,97 @@
 				<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 				<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 				<link rel="stylesheet" type="text/css" href="./css/style.css">
+				<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 	</head>
 					<body>
-						<header class="header_section pt-3 d-flex align-items-center">
+					
+						<header class="header_section d-block d-lg-none">
+							<nav class="navbar fixed-top">
+								  <div class="container-fluid">
+									<a class="navbar-brand text-decoration-none d-flex" href="#"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
+									<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+									  <span class="navbar-toggler-icon"><i class="fa fa-bars bg-light fs-2" aria-hidden="true"></i></span>
+									</button>
+									<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+									  <div class="offcanvas-header">
+										<h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+										<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+									  </div>
+									  <div class="offcanvas-body">
+										<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+										  <li class="nav-item pe-2"> 
+														<a class="nav-link fw-bolder head" aria-current="page" href="#">Home</a>
+													  </li>
+													  <li class="nav-item  pe-2">
+														<a class="nav-link fw-bolder head" href="#">About</a>
+													  </li>
+													  <li class="nav-item pe-2">
+														<a class="nav-link fw-bolder head" href="#">Services</a>
+													  </li>
+													  <li class="nav-item pe-2">
+														<a class="nav-link fw-bolder head" href="#">Portfolio</a>
+													  </li>
+														 <li class="nav-item pe-2">
+														<a class="nav-link fw-bolder head" href="#">Team</a>
+													  </li>
+													   <li class="nav-item pe-2">
+														<a class="nav-link fw-bolder head" href="#">Blog</a>
+													  </li>
+													<li class="logo_navlink dropdown"><a href="#">Drop Down<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+														<ul class="dropdown_list">
+															<li><a href="#">Dropdown1</a></li>
+															<li class="dropdown_sub"><a href="#">Drop down2 <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+																	<ul class="dropdown_nav_sub">
+																			<li><a href="#">Drop down1</a></li>
+																			<li><a href="#">Drop down2</a></li>
+																			<li><a href="#">Drop down3</a></li>
+																			<li><a href="#">Drop down4</a></li>
+																			<li><a href="#">Drop down5</a></li>
+																	</ul>
+																		</li>
+																		<li><a href="#">Drop down3</a></li>
+																		<li><a href="#">Drop down4</a></li>
+																		<li><a href="#">Drop down5</a></li>
+																	
+																	</ul>
+								
+								
+													</li>
+													<li class="nav-item pe-2">
+														<a class="nav-link fw-bolder head" href="#">Contact</a>
+													  </li>
+													 
+														
+													 
+										</ul>
+										<a href="get_started" class="d-block text-center"><button type="button" class="btn btn-primary">Get Started</button></a>
+									  </div>
+									</div>
+									  </div>
+									</nav>
+						
+						</header>
+												<header class="header_section d-none d-lg-block pt-3 d-flex align-items-center">						
+							
 							<div class="container">
 								<div class="row">
-									<div class="col-3">
+									<div class="col-lg-3">
 										<div class="header_name ">
 											
 											<a href="#"class="text-decoration-none d-flex"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
 											
 										</div>
 									</div>
-									<div class="col-7">
+									
+									<div class="col-lg-7">
+									
+										
 										<nav class="nav_bar">
 											<nav class="navbar navbar-expand-lg ">
 											  <div class="container-fluid">
 												<!-- <a class="navbar-brand" href="#">Navbar</a> -->
 												<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-												  <span class="navbar-toggler-icon"></span>
+												  <span class="navbar-toggler-icon"><i class="fa fa-bars bg-light fs-2" aria-hidden="true"></i></span>
 												</button>
 												<div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
 												  <ul class="navbar-nav">
@@ -82,7 +154,7 @@
 										</nav>
 									
 									</div>
-									<div class="col-2 d-flex align-items-center">
+									<div class="d-none d-lg-block col-lg-2 d-flex align-items-center">
 										<a href="get_started"><button type="button" class="btn btn-primary ">Get Started</button></a>
 									</div>
 								</div>
@@ -93,16 +165,15 @@
 						<section class="banner_section">
 							<div class="container">
 								<div class="row pt-5">
-									<div class="col d-flex justify-content-center align-items-center">
+									<div class="col-lg-6 d-flex justify-content-center align-items-center">
 										<div class="banner_left">
-											<h3>We offer modern solutions <br>
-											for growing your business</h3>
+											<h3>We offer modern solutions for growing your business</h3>
 											<p class="fs-4 pt-3 pb-3"> We are team of talented designers making websites with Bootstrap</p>
 											<a href="get_started" class="get_started"><button type="button" class="btn btn-primary additional ">Get Started<i class="fa fa-long-arrow-right get_arrow" aria-hidden="true"></i></button></a>
 										</div>
 									
 									</div>
-									<div class="col">
+									<div class="col-lg-6">
 										<div class="banner_right">
 											<img src="./assets/hero-img.png">
 										</div>
@@ -110,21 +181,21 @@
 								</div>
 							</div>
 						</section>
-						<section class="banner_sub pt-5">
+						<section class="banner_sub pt-0 pt-lg-5">
 							<div class="container">
 								<div class="row">
-									<div class="col-6 p-0">
-										<div class="banner_sub_left pt-5 ps-5 pb-5">
+									<div class="col-lg-6 p-0">
+										<div class="banner_sub_left p-5 pt-lg-5 ps-lg-5 pb-lg-5">
 											<h6>WHO WEARE</h6>
 											<h3>Expedita vouluptas omins cupidatate totam <br>
 											eveniet nobis sin iste</h3>
 											<p> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
 											looked up one of the more obscure Latin words, consectetur</p>
-											<a href="get_started" class="get_started"><button type="button" class="btn btn-primary additional">Get Started <i class="fa fa-long-arrow-right get_arrow" aria-hidden="true"></i></button></a>
+											<a href="get_started" class="get_started d-block text-center d-lg-inline"><button type="button" class="btn btn-primary additional">Get Started <i class="fa fa-long-arrow-right get_arrow" aria-hidden="true"></i></button></a>
 										</div>
 										
 									</div>
-									<div class="col-6 banner_sub_right img-fluid">
+									<div class="col-lg-6 banner_sub_right img-fluid">
 										
 										
 									</div>
@@ -141,27 +212,27 @@
 									</div>
 								</div>
 								<div class="row pt-3">
-									<div class="col">
-										<div class="values_sub  p-5">
+									<div class="col-lg">
+										<div class="values_sub text-center p-4 mb-4 mb-lg-0">
 											<img src="./assets/values-1.png" class="img-fluid p-2">
 											<h3>Ad cupiditae sed est odia</h3>
-											<p>Eum ad solor ar aurem aur sdi figur colum voluptare consequate </p>
+											<p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
 										</div>
 									
 									</div>
-									<div class="col">
-										<div class="values_sub p-5">
+									<div class="col-lg">
+										<div class="values_sub text-center p-4  mb-4 mb-lg-0">
 											<img src="./assets/values-2.png" class="img-fluid p-2">
-											<h3>Ad cupiditae sed est odia</h3>
-											<p>Eum ad solor ar aurem aur sdi figur colum voluptare consequate </p>
+											<h3>Voluptatem voluptatum alias</h3>
+											<p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
 										</div>
 									
 									</div>
-									<div class="col">
-										<div class="values_sub p-5">
+									<div class="col-lg">
+										<div class="values_sub text-center p-4  mb-4 mb-lg-0">
 											<img src="./assets/values-3.png" class="img-fluid p-2">
-											<h3>Ad cupiditae sed est odia</h3>
-											<p>Eum ad solor ar aurem aur sdi figur colum voluptare consequate </p>
+											<h3>Fugit cupiditate alias nobis.</h3>
+											<p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
 										</div>
 									
 									</div>
@@ -173,7 +244,7 @@
 						<section class="clients pt-5 pb-5">
 							<div class="container">
 								<div class="row">
-									<div class="col">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="clients_list">
 											<i class="fa fa-smile-o text-primary" aria-hidden="true"></i>
 											<h4>100</h4>
@@ -181,7 +252,7 @@
 										</div>
 									
 									</div>
-									<div class="col">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="clients_list">
 											<i class="fa fa-file-image-o text-danger" aria-hidden="true"></i>
 											<h4>224</h4>
@@ -189,7 +260,7 @@
 										</div>
 									
 									</div>
-									<div class="col">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="clients_list">
 											<i class="fa fa-headphones text-success" aria-hidden="true"></i>
 											<h4>629</h4>
@@ -197,10 +268,10 @@
 										</div>
 									
 									</div>
-									<div class="col">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="clients_list">
 											<i class="fa fa-users color4 text-danger" aria-hidden="true"></i>
-											<h4>6</h4>
+											<h4>15</h4>
 											<h5>HArd Workers</h5>
 										</div>
 									
@@ -223,39 +294,39 @@
 								
 								</div>
 								<div class="row">
-									<div class="col">
+									<div class="col-lg">
 										<div class="feature_image">
 											<img src="./assets/features.png" class="img-fluid p-2">
 										</div>
 									</div>
-									<div class="col d-flex align-item-center mt-3">
+									<div class="col-lg d-flex align-item-center mt-3">
 										<div class="row">
-											<div class="col-6 mt-2">
+											<div class="col-md-6 col-lg-6 mt-2">
 												<div class="feature_right_Sub">
 													<p><i class="fa fa-check " aria-hidden="true"></i>Eos aspernatur rem</p>
 												</div>
 											</div>	
-											<div class="col-6 mt-2">
+											<div class="col-md-6 col-lg-6 mt-2">
 												<div class="feature_right_Sub">
 													<p><i class="fa fa-check" aria-hidden="true"></i>Eos aspernatur rem</p>
 												</div>
 											</div>	
-											<div class="col-6 mt-2">
+											<div class="col-md-6 col-lg-6 mt-2">
 												<div class="feature_right_Sub">
 													<p><i class="fa fa-check" aria-hidden="true"></i>Eos aspernatur rem</p>
 												</div>
 											</div>	
-											<div class="col-6 mt-2">
+											<div class="col-md-6 col-lg-6 mt-2">
 												<div class="feature_right_Sub">
 													<p><i class="fa fa-check" aria-hidden="true"></i>Eos aspernatur rem</p>
 												</div>
 											</div>	
-											<div class="col-6 mt-2">
+											<div class="col-md-6 col-lg-6 mt-2">
 												<div class="feature_right_Sub">
 													<p><i class="fa fa-check" aria-hidden="true"></i>Eos aspernatur rem</p>
 												</div>
 											</div>	
-											<div class="col-6 mt-2">
+											<div class="col-md-6 col-lg-6 mt-2">
 												<div class="feature_right_Sub">
 													<p><i class="fa fa-check" aria-hidden="true"></i>Eos aspernatur rem</p>
 												</div>
@@ -272,7 +343,7 @@
 						<section class="volunters mt-5 pt-5">
 							<div class="container">
 								<div class="row">
-									<div class="col-6">
+									<div class="col-lg-6">
 										<div class="volunters_left">
 												<div class="volunters_left_header sub">
 													<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipiscivelit</p>
@@ -317,7 +388,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-6">
+									<div class="col-lg-6">
 										<div class="volunters_left">
 											<img src="./assets/features-2.png" class="img-fluid p-2">
 										</div>
@@ -333,15 +404,15 @@
 									</div>
 								</div>
 								<div class="row mt-5">
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="announcement_image">
 											<img src="./assets/features-3.png" class="img-fluid">
 										</div>
 									</div>
-									<div class="col-8">
+									<div class="col-lg-8">
 										<div class="announcement_list">
 											<div class="row">
-												<div class="col-6 mt-5">
+												<div class="col-md-6 col-lg-6 mt-5">
 													<div class="announcement_list_sub">
 														<i class="fa fa-line-chart" aria-hidden="true"></i>
 														<h4>Corporis voluptates sit</h4>
@@ -349,7 +420,7 @@
 														It has roots in a piece of classical Latin literature</p>
 													</div>
 												</div>
-												<div class="col-6 mt-5 pe-5">
+												<div class="col-md-6 col-lg-6 mt-5 pe-5">
 													<div class="announcement_list_sub">
 														<i class="fa fa-database" aria-hidden="true"></i>
 														<h4>Ullamco Laboris nisi</h4>
@@ -357,7 +428,7 @@
 														It has roots in a piece </p>
 													</div>
 												</div>
-												<div class="col-6 mt-5">
+												<div class="col-md-6 col-lg-6 mt-5">
 													<div class="announcement_list_sub">
 														<i class="fa fa-print" aria-hidden="true"></i>
 														<h4>Labore conseququator</h4>
@@ -365,7 +436,7 @@
 														It has roots in a piece </p>
 													</div>
 												</div>
-												<div class="col-6 mt-5">
+												<div class="col-md-6 col-lg-6 mt-5">
 													<div class="announcement_list_sub">
 														<i class="fa fa-star-o" aria-hidden="true"></i>
 														<h4>Beaate Verotasis</h4>
@@ -373,7 +444,7 @@
 														It has roots in a piece</p>
 													</div>
 												</div>
-												<div class="col-6 mt-5">
+												<div class="col-md-6 col-lg-6 mt-5">
 													<div class="announcement_list_sub">
 														<i class="fa fa-users aria-hidden="true"></i>
 														<h4>Molestia dolor</h4>
@@ -381,7 +452,7 @@
 														It has roots in a piece </p>
 													</div>
 												</div>
-												<div class="col-6 mt-5">
+												<div class="col-md-6 col-lg-6 mt-5">
 													<div class="announcement_list_sub">
 														<i class="fa fa-plug" aria-hidden="true"></i>
 														<h4>Explicabo consectetur</h4>
@@ -408,70 +479,70 @@
 								</div>
 								<div class="row mt-5">
 									
-										<div class="col-4">
+										<div class="col-md-6 col-lg-4">
 											<div class="service_list mb-4 me-1">
 												<div class="services_list_items text-center list_1">
 													<i class="fa fa-comments-o color1" aria-hidden="true"></i>
 													<h4>Nescluent Mete</h4>
 													<p>There are many variations of passages of Lorem Ipsum available,
 													but the majority have suffered alteration in some form, by injected humour</p>
-													<button type="button" class="btn btn-light sec1">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+													<button type="button" class="btn sec1">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 												</div>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-md-6 col-lg-4">
 											<div class="service_list mb-4 me-1">
 												<div class="services_list_items   text-center  list_2">
 													<i class="fa fa-comments-o color2" aria-hidden="true"></i>
 													<h4>Nescluent Mete</h4>
 													<p>There are many variations of passages of Lorem Ipsum available,
 													but the majority have suffered alteration in some form, by injected humour</p>
-													<button type="button" class="btn btn-light sec2">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+													<button type="button" class="btn sec2">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 												</div>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-md-6 col-lg-4">
 											<div class="service_list mb-4">
 												<div class="services_list_items text-center list_3">
 													<i class="fa fa-comments-o color3" aria-hidden="true"></i>
 													<h4>Nescluent Mete</h4>
 													<p>There are many variations of passages of Lorem Ipsum available,
 													but the majority have suffered alteration in some form, by injected humour</p>
-													<button type="button" class="btn btn-light sec3">Read More <i class="fa fa-long-arrow-right" 
+													<button type="button" class="btn sec3">Read More <i class="fa fa-long-arrow-right" 
 													aria-hidden="true"></i></button>
 												</div>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-md-6 col-lg-4">
 											<div class="service_list mb-4 me-1">
 												<div class="services_list_items  text-center list_4">
 													<i class="fa fa-comments-o color4" aria-hidden="true"></i>
 													<h4>Nescluent Mete</h4>
 													<p>There are many variations of passages of Lorem Ipsum available,
 													but the majority have suffered alteration in some form, by injected humour</p>
-													<button type="button" class="btn btn-light indigo">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+													<button type="button" class="btn indigo">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 												</div>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-md-6 col-lg-4">
 											<div class="service_list mb-4 me-1">
 												<div class="services_list_items text-center list_5">
 													<i class="fa fa-comments-o color5" aria-hidden="true"></i>
 													<h4>Nescluent Mete</h4>
 													<p>There are many variations of passages of Lorem Ipsum available,
 													but the majority have suffered alteration in some form, by injected humour</p>
-													<button type="button" class="btn btn-light violet">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+													<button type="button" class="btn violet">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 												</div>
 											</div>
 										</div>
-										<div class="col-4">
+										<div class="col-md-6 col-lg-4">
 											<div class="service_list mb-4">
 												<div class="services_list_items  text-center list_6">
 													<i class="fa fa-comments-o color6" aria-hidden="true"></i>
 													<h4>Nescluent Mete</h4>
 													<p>There are many variations of passages of Lorem Ipsum available,
 													but the majority have suffered alteration in some form, by injected humour</p>
-													<button type="button" class="btn btn-light pink">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+													<button type="button" class="btn pink">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 												</div>
 											</div>
 										</div>
@@ -489,7 +560,7 @@
 									</div>
 								</div>
 								<div class="row mt-5">
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="pricing_list text-center">
 											<h5 class="text-primary pb-2">Free Plan</h5>				
 											<h6><sup>$</sup>0<sub>/mo</sub> </h6>
@@ -503,7 +574,7 @@
 										</div>
 									</div>
 									
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="pricing_list  text-center">
 											<h5 class="text-success pb-2">Starter Plan</h5>	
 											<span class="feature">Featured</span>												
@@ -518,7 +589,7 @@
 										</div>
 									</div>
 									
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="pricing_list text-center">
 											<h5 class="text-warning pb-2">Business Plan</h5>
 											
@@ -533,7 +604,7 @@
 										</div>
 									</div>
 									
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="pricing_list text-center">
 											<h5 class="text-danger pb-2">Ultimate Plan</h5>				
 											<h6><sup>$</sup>49<sub>/mo</sub> </h6>
@@ -560,7 +631,7 @@
 									</div>
 								</div>
 								<div class="row mt-2">
-									<div class="col-6">
+									<div class="col-lg-6">
 										<div class="accordion" id="accordionExample1">
 									  <div class="accordion-item no_border">
 										<h2 class="accordion-header" id="headingOne">
@@ -600,7 +671,7 @@
 									  </div>
 									</div>
 									</div>
-									<div class="col-6">
+									<div class="col-lg-6">
 										<div class="accordion" id="accordionExample2">
 										  <div class="accordion-item no_border">
 											<h2 class="accordion-header" id="headingfour">
@@ -608,7 +679,7 @@
 												If you are going to use a passage of Lorem Ipsum you need to be sure  
 											  </button>
 											</h2>
-											<div id="collapsefour" class="accordion-collapse collapse " aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+											<div id="collapsefour" class="accordion-collapse collapse " aria-labelledby="headingfour" data-bs-parent="#accordionExample2">
 											  <div class="accordion-body">
 												<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
 											  </div>
@@ -620,7 +691,7 @@
 												If you are going to use a passage of Lorem Ipsum you need to be sure  
 											  </button>
 											</h2>
-											<div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+											<div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample2">
 											  <div class="accordion-body">
 												<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
 											  </div>
@@ -632,7 +703,7 @@
 												If you are going to use a passage of Lorem Ipsum you need to be sure  
 											  </button>
 											</h2>
-											<div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+											<div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample2">
 											  <div class="accordion-body">
 												<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
 											  </div>
@@ -640,22 +711,22 @@
 										  </div>
 										</div>
 									</div>
-									<!-- <div class="col-6"> -->
+									<!-- <div class="col-lg-6"> -->
 										<!-- <div class="faq_questions"> -->
 											<!-- <p>If you are going to use a passage of Lorem Ipsum you need to be sure  <i class="fa fa-angle-down" aria-hidden="true"></i></p> -->
 										<!-- </div> -->
 									<!-- </div> -->
-									<!-- <div class="col-6"> -->
+									<!-- <div class="col-lg-6"> -->
 										<!-- <div class="faq_questions"> -->
 											<!-- <p>If you are going to use a passage of Lorem Ipsum you need to be sure  <i class="fa fa-angle-down" aria-hidden="true"></i></p> -->
 										<!-- </div> -->
 									<!-- </div> -->
-									<!-- <div class="col-6"> -->
+									<!-- <div class="col-lg-6"> -->
 										<!-- <div class="faq_questions"> -->
 											<!-- <p>If you are going to use a passage of Lorem Ipsum you need to be sure  <i class="fa fa-angle-down" aria-hidden="true"></i></p> -->
 										<!-- </div> -->
 									<!-- </div> -->
-									<!-- <div class="col-6"> -->
+									<!-- <div class="col-lg-6"> -->
 										<!-- <div class="faq_questions"> -->
 											<!-- <p>If you are going to use a passage of Lorem Ipsum you need to be sure <i class="fa fa-angle-down" aria-hidden="true"></i></p> -->
 										<!-- </div> -->
@@ -706,10 +777,10 @@
 								</div>
 								
 								<div class="row">
-									<div class="col-4">
-										<div class="portfolio_images mb-3">
+									<div class="col-md-6 col-lg-4  mb-4 mb-lg-0">
+										<div class="portfolio_images">
 											<img src="./assets/portfolio/portfolio-1.jpg" class="img-fluid">
-											<div class="bor_1"></div>
+											
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>App 1</h5>
@@ -722,10 +793,9 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4  mb-4 mb-lg-0 ">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-2.jpg" class="img-fluid">
-											<div class="bor_1"></div>
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>Web 3</h5>
@@ -738,10 +808,10 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-3.jpg" class="img-fluid">
-											<div class="bor_1"></div>
+											
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>App </h5>
@@ -754,10 +824,10 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-4.jpg" class="img-fluid">
-											<div class="bor_1"></div>
+											
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>Card 2</h5>
@@ -770,10 +840,10 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-5.jpg" class="img-fluid">
-											<div class="bor_1"></div>
+											
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>App 1</h5>
@@ -786,10 +856,10 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-6.jpg" class="img-fluid">
-											<div class="bor_1"></div>
+											
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>Web 2</h5>
@@ -802,10 +872,10 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-7.jpg" class="img-fluid">
-											<div class="bor_1"></div>
+											
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>App 1</h5>
@@ -818,10 +888,9 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-8.jpg" class="img-fluid">
-											<div class="bor_1"></div>
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>App 3</h5>
@@ -834,10 +903,9 @@
 										</div>
 										</div>
 									</div>
-									<div class="col-4 ">
+									<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
 										<div class="portfolio_images mb-3">
 											<img src="./assets/portfolio/portfolio-9.jpg" class="img-fluid">
-											<div class="bor_1"></div>
 											<div class="port_txt">
 											<div class="port_txt_sub">
 												<h5>App 1</h5>
@@ -880,7 +948,7 @@
 									  <div class="carousel-inner test mb-5">
 										<div class="carousel-item test active mb-5">
 											<div class="row">
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-muted  text-center"> 
 														<div class="testinomail_rating text-muted  text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -897,7 +965,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list test p-5 text-muted text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -914,7 +982,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-muted text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -937,7 +1005,7 @@
 										</div>
 											<div class="carousel-item test mb-5">
 											<div class="row">
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-muted text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -954,7 +1022,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -971,7 +1039,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-muted text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -992,9 +1060,9 @@
 												
 											</div>
 										</div>
-											<div class="carousel-item mb-5">
+											<div class="carousel-item mb-5 mb-5 mb-lg-0">
 											<div class="row">
-												<div class="col-4">
+												<div class="col-lg-4">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1011,7 +1079,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1028,7 +1096,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1051,7 +1119,7 @@
 										</div>
 										<div class="carousel-item mb-5">
 											<div class="row">
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1068,7 +1136,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1085,7 +1153,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1106,9 +1174,9 @@
 												
 											</div>
 										</div>
-										<div class="carousel-item mb-5">
+										<div class="carousel-item mb-5mb-5 mb-lg-0">
 											<div class="row">
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1125,7 +1193,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-muted  text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1142,7 +1210,7 @@
 															<h6>Store Owner</h6>
 													</div>
 												</div>
-												<div class="col-4">
+												<div class="col-lg-4 mb-5 mb-lg-0">
 													<div class="testinomial_list p-5 text-muted text-center"> 
 														<div class="testinomail_rating text-center">
 															<i class="fa fa-star" aria-hidden="true"></i>
@@ -1182,7 +1250,7 @@
 								
 								<!-- <div class="row">  -->
 										
-									<!-- <div class="col-4"> -->
+									<!-- <div class="col-lg-4"> -->
 										<!-- <div class="testinomial_list p-5 text-center"> -->
 											<!-- <div class="testinomail_rating text-center"> -->
 												<!-- <i class="fa fa-star" aria-hidden="true"></i> -->
@@ -1200,7 +1268,7 @@
 											<!-- <h6>Store Owner</h6> -->
 										<!-- </div> -->
 									<!-- </div> -->
-									<!-- <div class="col-4"> -->
+									<!-- <div class="col-lg-4"> -->
 										<!-- <div class="testinomial_list p-5 text-center"> -->
 											<!-- <div class="testinomail_rating text-center"> -->
 												<!-- <i class="fa fa-star" aria-hidden="true"></i> -->
@@ -1217,7 +1285,7 @@
 											<!-- <h6>Freelancer</h6> -->
 										<!-- </div> -->
 									<!-- </div> -->
-									<!-- <div class="col-4"> -->
+									<!-- <div class="col-lg-4"> -->
 										<!-- <div class="testinomial_list p-5  text-center"> -->
 											<!-- <div class="testinomail_rating text-center"> -->
 												<!-- <i class="fa fa-star" aria-hidden="true"></i> -->
@@ -1237,7 +1305,7 @@
 								<!-- </div> -->
 							</div>
 						</section>
-						<section class="team mt-5">
+						<section class="team mt-5 pb-5">
 							<div class="container">
 								<div class="row">
 									<div class="section_title text-center">
@@ -1246,7 +1314,7 @@
 									</div>
 								</div>
 								<div class="row mt-3">
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="team_list">
 											<div class="team_list_img">	
 												<img src="./assets/team/team-1.jpg" class="img-fluid">
@@ -1267,7 +1335,7 @@
 										
 										</div>
 									</div>
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="team_list ">
 											<div class="team_list_img">	
 												<img src="./assets/team/team-2.jpg" class="img-fluid">
@@ -1291,7 +1359,7 @@
 										</div>
 									</div>
 									
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="team_list">
 											<div class="team_list_img">	
 												<img src="./assets/team/team-3.jpg" class="img-fluid">
@@ -1315,7 +1383,7 @@
 										</div>
 									</div>
 								
-									<div class="col-3">
+									<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 										<div class="team_list">
 											<div class="team_list_img">	
 												<img src="./assets/team/team-4.jpg" class="img-fluid">
@@ -1364,62 +1432,62 @@
 									  <div class="carousel-inner mb-3">
 										<div class="carousel-item active">
 											<div class="row">
-												<div class="col-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-5" alt="..."></div>
 											</div>
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-5 " alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-5 " alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-5" alt="..."></div>
 											</div>
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-5" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-5" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-5" alt="..."></div>
 											</div>
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-4" alt="..."></div>
 											</div>
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-4" alt="..."></div>
 											</div>
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-4" alt="..."></div>
-												<div class="col-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-1.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-2.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-3.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-4.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-5.png" class="d-inline w-100 p-4" alt="..."></div>
+												<div class="col-lg-2"><img src="./assets/clients/client-6.png" class="d-inline w-100 p-4" alt="..."></div>
 											</div>
 										</div>
 									
@@ -1449,7 +1517,7 @@
 								
 								</div>
 								<div class="row mt-5">
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="blog_list">
 											<div class="card blog">
 												<div class="blog_img">
@@ -1473,7 +1541,7 @@
 											
 										<!-- </div> -->
 									</div>
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="blog_list">
 											<div class="card blog">
 											<div class="blog_img">
@@ -1496,7 +1564,7 @@
 											
 										<!-- </div> -->
 									</div>
-									<div class="col-4">
+									<div class="col-lg-4">
 										<div class="blog_list">
 											<div class="card blog">
 											<div class="blog_img">
@@ -1523,7 +1591,7 @@
 								</div>
 							</div>
 						</section>
-						<section class="contact mt-5">
+						<section class="contact mt-5 pt-5">
 							<div class="container">
 								<div class="row">
 									<div class="section_title text-center">
@@ -1532,10 +1600,10 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col">
+									<div class="col-lg">
 										<div class="contact_left">
 											<div class="row">
-												<div class="col-6">
+												<div class="col-md-6 col-lg-6">
 													<div class="address_list p-4 mb-4">
 														<i class="fa fa-map-marker text-primary fs-1 pb-4" aria-hidden="true"></i>
 														<h3>Location</h3>
@@ -1544,7 +1612,7 @@
 													</div>
 												
 												</div>
-												<div class="col-6">
+												<div class="col-md-6 col-lg-6">
 													<div class="address_list p-4 mb-4">
 														<i class="fa fa-phone text-primary fs-1 pb-4" aria-hidden="true"></i>
 														<h3>Call Us</h3>
@@ -1554,7 +1622,7 @@
 												</div>
 												
 															
-												<div class="col-6">
+												<div class="col-md-6 col-lg-6">
 													<div class="address_list p-4 mb-4">
 														<i class="fa fa-envelope-o text-primary fs-1 pb-4" aria-hidden="true"></i>
 														<h3>Email Us</h3>
@@ -1562,7 +1630,7 @@
 														contacc@example.com<p>
 													</div>
 												</div>
-												<div class="col-6">
+												<div class="col-md-6 col-lg-6">
 													<div class="address_list p-4 mb-4">
 														<i class="fa fa-clock-o text-primary fs-1 pb-4" aria-hidden="true"></i>
 														<h3>Open Hours</h3>
@@ -1574,25 +1642,25 @@
 											</div>
 										</div>
 									</div>
-									<div class="col">
+									<div class="col-lg">
 										<div class="contact_right pt-3 pe-4 ps-4 pb-1">
 											<form> 
 												<div class="row mb-3 pt-3 pb-3">
-													<div class="col-6">
+													<div class="col-md-6 mb-4 mb-lg-3">
 														<input type="text" class="form-control p-3" placeholder="Name" id="name"></input>
 													</div>
-													<div class="col-6 mb-3">
+													<div class="col-md-6 mb-4 mb-lg-3">
 														<input type="text" class="form-control p-3" placeholder="Mail" id="mail"></input>
 													</div>
 													
-													<div class="col-12 mb-3">
+													<div class="col-md-12 mb-4 mb-lg-3">
 														<input type="text" class="form-control p-3" placeholder="Subject" id="subject"></input>
 													</div>
 																											
-													<div class="col-12 mb-4">
+													<div class="col-md-12 mb-4 mb-lg-4">
 														  <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="6"></textarea>
 													</div>
-													<div class="col-12 text-center">
+													<div class="col-md-12 text-center">
 														<button type="button" class="btn btn-primary send_msg">Send Message</button>
 													</div>
 													
@@ -1609,14 +1677,14 @@
 						
 						<section class="newsletter mt-5 ">
 								<div class="container-fluid">
-									<div class="row">
-										<div class="col news">
+									
+										
 											<div class="newsletter_subscribe pt-5 pb-5 text-center">
 												<h3>Our Newsletter</h3>
 												<p>Tamen quem nulla quae legam multas aute sint culp legam noster magna</p>
 												<form class="subscribe_form ">
 													<div class="row justify-content-center ">
-														<div class="col-5 sub_form d-flex justify-content-center align-item-center">
+														<div class="col-10 col-lg-5 sub_form d-flex justify-content-center align-item-center">
 															<input type="text" class="form-control subscibe_input" placeholder="" id="name"></input>
 															<button type="button" class="btn btn-primary subsc">Subscribe</button>
 														</div>
@@ -1628,15 +1696,15 @@
 													
 												</form>
 											</div>
-										</div>
-									</div>
+										
+									
 								</div>
 						</section>
 						
-						<section class="footer">
+						<section class="footer pt-5">
 							<div class="container">
 								<div class="row">
-									<div class="col-5">
+									<div class="col-lg-5 pb-5 pb-lg-0">
 										<div class="footer_links">
 											<a href="#"class="text-decoration-none d-flex"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
 											<p>Cras ffermetum odio eu feugiat lide par naso tieerra, justo egt nada terra vid magna denrita valies darta donna mare</p>
@@ -1648,7 +1716,7 @@
 												</div>
 									</div>
 									</div>
-									<div class="col-2">
+									<div class="col-6  col-lg-2 pb-3 pb-lg-0">
 										<div class="useful_links">
 										<h3>Useful Links</h3>	
 											<ul  class="list-unstyled">
@@ -1660,7 +1728,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-2">
+									<div class="col-6 col-lg-2 pb-3 pb-lg-0">
 										<div class="useful_links">
 											<h3>Our Services</h3>	
 												<ul class="list-unstyled">
@@ -1672,9 +1740,9 @@
 												</ul>
 										</div>
 									</div>
-									<div class="col-3">
+									<div class="col-12 col-lg-3">
 										<div class="useful_links">
-											<h3>Our Services</h3>
+											<h3>Contact Us</h3>
 											<p>A108 Adam Street<br>
 												New York,NY 535022<br>
 												United Stated</p>
@@ -1688,7 +1756,7 @@
 						<section class="footer_copyright">
 							<div class="container-fluid">
 								<div class="row text-center">
-									<div class="col">
+									<div class="col-lg">
 										<div class="copyrights_content pt-5 pb-5">
 											<h3 class="fs-6 text-dark">Designed by <b class="text-muted">@Aswin</b></h3>
 										</div>
