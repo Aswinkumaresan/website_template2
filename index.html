@@ -15,39 +15,55 @@
 	</head>
 					<body>
 					
-						<header class="header_section d-block d-lg-none">
-							<nav class="navbar fixed-top">
-								  <div class="container-fluid">
-									<a class="navbar-brand text-decoration-none d-flex" href="#"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
-									<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-									  <span class="navbar-toggler-icon"><i class="fa fa-bars bg-light fs-2" aria-hidden="true"></i></span>
-									</button>
-									<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-									  <div class="offcanvas-header">
-										<h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-										<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-									  </div>
-									  <div class="offcanvas-body">
-										<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-										  <li class="nav-item pe-2"> 
+						<header class="header_section  pt-3 d-flex align-items-center">
+						
+							
+							<div class="container">
+								<div class="row">
+									<div class=" d-none d-lg-block col-3 col-lg-3">
+										<div class="header_name ">
+											
+											<a href="#"class="text-decoration-none d-flex"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
+											
+										</div>
+									</div>
+									
+									<div class="col-12 d-flex justify-content-end col-lg-7">
+									
+										
+										<nav class="nav_bar">
+											<nav class="d-block d-lg-none navbar fixed-top">
+												  <div class="container-fluid">
+													<a class="navbar-brand text-decoration-none d-flex" href="#"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
+													<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+													  <span class="navbar-toggler-icon"><i class="fa fa-bars bg-light fs-2" aria-hidden="true"></i></span>
+													</button>
+													<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+													  <div class="offcanvas-header">
+														<h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+														<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+													  </div>
+													  <div class="offcanvas-body">
+														<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+														  <li class="nav-item pe-2"> 
 														<a class="nav-link fw-bolder head" aria-current="page" href="#">Home</a>
 													  </li>
-													  <li class="nav-item  pe-2">
+													  <li class="nav-item  pb-2 pe-2">
 														<a class="nav-link fw-bolder head" href="#">About</a>
 													  </li>
-													  <li class="nav-item pe-2">
+													  <li class="nav-item pb-2 pe-2">
 														<a class="nav-link fw-bolder head" href="#">Services</a>
 													  </li>
-													  <li class="nav-item pe-2">
+													  <li class="nav-item pb-2 pe-2">
 														<a class="nav-link fw-bolder head" href="#">Portfolio</a>
 													  </li>
-														 <li class="nav-item pe-2">
+														 <li class="nav-item pb-2 pe-2">
 														<a class="nav-link fw-bolder head" href="#">Team</a>
 													  </li>
-													   <li class="nav-item pe-2">
+													   <li class="nav-item pb-2 pe-2">
 														<a class="nav-link fw-bolder head" href="#">Blog</a>
 													  </li>
-													<li class="logo_navlink dropdown"><a href="#">Drop Down<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+													<li class="logo_navlink pb-2 dropdown"><a href="#">Drop Down<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 														<ul class="dropdown_list">
 															<li><a href="#">Dropdown1</a></li>
 															<li class="dropdown_sub"><a href="#">Drop down2 <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -67,37 +83,18 @@
 								
 								
 													</li>
-													<li class="nav-item pe-2">
+													<li class="nav-item pb-2  pe-2">
 														<a class="nav-link fw-bolder head" href="#">Contact</a>
-													  </li>
-													 
-														
-													 
-										</ul>
-										<a href="get_started" class="d-block text-center"><button type="button" class="btn btn-primary">Get Started</button></a>
-									  </div>
-									</div>
-									  </div>
-									</nav>
-						
-						</header>
-												<header class="header_section d-none d-lg-block pt-3 d-flex align-items-center">						
-							
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-3">
-										<div class="header_name ">
-											
-											<a href="#"class="text-decoration-none d-flex"><img src="./assets/logo.png"><h1>FlexStart</h1></a>
-											
-										</div>
-									</div>
-									
-									<div class="col-lg-7">
-									
-										
-										<nav class="nav_bar">
-											<nav class="navbar navbar-expand-lg ">
+																  </li>
+													</ul>
+													<div class="col-12 d-block d-lg-none">
+															<a href="get_started"><button type="button" class="btn btn-primary ">Get Started</button></a>
+														</div>
+												  </div>
+												</div>
+												  </div>
+												</nav>
+											<nav class="d-none d-lg-block navbar navbar-expand-lg ">
 											  <div class="container-fluid">
 												<!-- <a class="navbar-brand" href="#">Navbar</a> -->
 												<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -147,6 +144,13 @@
 														<a class="nav-link fw-bolder head" href="#">Contact</a>
 													  </li>
 												  </ul>
+												  <div class="start">
+													<div class="row">
+														<div class="col-12 d-block d-lg-none">
+															<a href="get_started"><button type="button" class="btn btn-primary ">Get Started</button></a>
+														</div>
+													</div>
+												  </div>
 												</div>
 											  </div>	
 										</nav>
