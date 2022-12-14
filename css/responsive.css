@@ -73,9 +73,12 @@
 	width:100%;
 	height:auto;
 }
+.offcanvas_sub{
+	margin:10px;
+}
 .header_section .offcanvas-end {
 	top: 60px;
-    right:0;
+    right:-20px;
 	left:0;
     bottom: 44px;
 	margin:0 20px;
@@ -111,14 +114,7 @@
     min-width: 292px;
     padding: 0px 43px;
 }
-.header_section .offcanvas-end {
-	top: 60px;
-    right: 0px;
-    bottom: 44px;
-    width: auto;
-    border-radius: 10px;
-    transition: all 0.8s ease;
-}
+
 .dropdown, .dropdown_sub {
     position: relative;
     display: flex;
