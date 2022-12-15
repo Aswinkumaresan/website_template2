@@ -383,7 +383,7 @@ body{
  .description h4{
 	
 	color:#012970;
-    padding-bottom: 14px;
+    padding-bottom: 7px;
     font-weight: 500;
 	font-size:20px;
 }
@@ -955,6 +955,14 @@ body{
 /* .clients_images:hover img{ */
 	/* opacity:1; */
 /* } */
+
+.owl-carousel.owl-stage-outer.clients_logo img:hover{
+	opacity:1;
+	
+}
+.owl-item.active.center{
+	transform:scale(1.1);
+}
 .carousel-indicators [data-bs-target]{
 	height:30px;
 	margins-top:50px;
@@ -1048,7 +1056,7 @@ body{
 .testinomial_list{
 	    box-shadow: 0px -2px 21px rgb(128 137 128 / 19%);
     transition: all 0.3s ease;
-    margin: 20px 20px;
+    margin: 34px 20px;
     padding: 41px 31px;
 }
 /* .owl-carousel .owl-item { */
